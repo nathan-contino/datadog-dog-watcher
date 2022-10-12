@@ -118,14 +118,14 @@ The Datadog Agent includes the MongoDB integration by default, so all you have t
    Agent can connect to your newly-created local MongoDB instance. You should assign these
    keys the following values:
    ```yaml
-   	  - hosts:
-          - localhost:27017
+   hosts:
+     - localhost:27017
 
-        username: datadog
+   username: datadog
 
-        password: <UNIQUEPASSWORD>
+   password: <UNIQUEPASSWORD>
 
-        database: admin
+   database: admin
 
    ```
 
